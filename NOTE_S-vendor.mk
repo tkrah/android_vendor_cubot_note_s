@@ -11,6 +11,6 @@ PRODUCT_COPY_FILES := \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 # Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS := vendor/cubot/notes/overlay
+DEVICE_PACKAGE_OVERLAYS := vendor/CUBOT/NOTE_S/overlay
 
-$(call inherit-product, vendor/cubot/notes/notes-vendor-blobs.mk)
+$(call inherit-product, vendor/CUBOT/NOTE_S/NOTE_S-vendor-blobs.mk)
